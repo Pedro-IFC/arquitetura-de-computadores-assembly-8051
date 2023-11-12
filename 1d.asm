@@ -1,0 +1,4 @@
+MOV A, #6
+MOV B, #3
+DIV AB
+MOV R1, A
