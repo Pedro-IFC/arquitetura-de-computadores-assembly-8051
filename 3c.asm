@@ -1,0 +1,4 @@
+FOR:
+    INC R0
+    CJNE R0, #10, FOR
+END

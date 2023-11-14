@@ -1,0 +1,11 @@
+MOV R0, #11
+MOV A, #0
+CJNE R0, #11, WHILE	
+JMP END
+WHILE:
+	INC R0	
+	MOV A, #3
+    CJNE R0, #10, WHILE	
+	JMP END
+END:
+	
